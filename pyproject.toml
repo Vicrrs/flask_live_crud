@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flask-live-crud"
+version = "0.1.0"
+description = "CRUD in Flask using Postgres and Docker"
+authors = ["Vicrrs <enricofermi2019@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Flask = "^3.0.2"
+Flask-SQLAlchemy = "^3.1.1"
+psycopg2-binary = "^2.9.9"
+# Adicione outras dependências aqui
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
